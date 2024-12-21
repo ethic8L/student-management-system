@@ -2,7 +2,7 @@
 
 ## Przegląd
 
-System Zarządzania Studentami (Student Management System) to aplikacja umożliwiająca przechowywanie i zarządzanie danymi studentów. Użytkownik może dodawać, edytować, usuwać oraz przeglądać dane studentów. Aplikacja korzysta z bazy danych PostgreSQL (lub innej wybranej bazy) do przechowywania danych oraz Java Swing do tworzenia interfejsu graficznego (GUI).
+System Zarządzania Studentami (Student Management System) to aplikacja umożliwiająca przechowywanie i zarządzanie danymi studentów. Użytkownik może dodawać, edytować, usuwać oraz przeglądać dane studentów. Aplikacja korzysta z bazy danych PostgreSQL do przechowywania danych oraz Java Swing do tworzenia interfejsu graficznego (GUI).
 
 ## Funkcjonalności
 
