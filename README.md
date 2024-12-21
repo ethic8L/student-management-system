@@ -68,10 +68,10 @@ System Zarządzania Studentami (Student Management System) to aplikacja umożliw
     );
     ```
 
-4. Skonfiguruj połączenie z bazą danych w pliku konfiguracyjnym aplikacji (np. `application.properties`):
+4. Skonfiguruj połączenie z bazą danych w pliku konfiguracyjnym aplikacji:
 
-    ```properties
-    jdbc.url=jdbc:postgresql://localhost:5432/student_management_system
+    ```
+    jdbc.url=jdbc:postgresql://localhost:5432/student_management
     jdbc.username=your_database_username
     jdbc.password=your_database_password
     ```
