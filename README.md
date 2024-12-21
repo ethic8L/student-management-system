@@ -50,23 +50,21 @@ System Zarządzania Studentami (Student Management System) to aplikacja umożliw
 
 ### Tworzenie bazy danych
 
-1. Zainstaluj i uruchom PostgreSQL (lub inną bazę danych, jeśli preferujesz).
-2. Utwórz nową bazę danych, np. `student_management_system`:
+1. Zainstaluj i uruchom PostgreSQL.
+2. Utwórz nową bazę danych, `student_management`:
 
     ```sql
-    CREATE DATABASE student_management_system;
+    CREATE DATABASE student_management;
     ```
 
 3. Użyj poniższego skryptu SQL, aby utworzyć tabelę `students`:
 
     ```sql
     CREATE TABLE students (
-        id SERIAL PRIMARY KEY,
-        first_name VARCHAR(100) NOT NULL,
-        last_name VARCHAR(100) NOT NULL,
-        birthdate DATE,
-        email VARCHAR(255) UNIQUE,
-        phone_number VARCHAR(20)
+        studentid TEXT PRIMARY KEY,
+        name VARCHAR(100) NOT NULL,
+        age INT NOT NULL,
+        grade REAL NOT NULL
     );
     ```
 
