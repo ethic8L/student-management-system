@@ -10,7 +10,6 @@ System Zarządzania Studentami (Student Management System) to aplikacja umożliw
 - **Edytowanie danych studentów**: Umożliwia edytowanie istniejących danych studentów.
 - **Usuwanie studentów**: Możliwość usuwania studentów z bazy danych.
 - **Wyświetlanie listy studentów**: Wyświetla listę wszystkich zapisanych studentów w systemie.
-- **Wyszukiwanie studentów**: Możliwość wyszukiwania studentów według różnych kryteriów (np. imienia, nazwiska).
 
 ## Instrukcje dotyczące kompilacji i uruchamiania aplikacji
 
