@@ -18,7 +18,7 @@ System Zarządzania Studentami (Student Management System) to aplikacja umożliw
 
 - **Java** (JDK 11 lub wyższa) zainstalowana na komputerze.
 - **Maven** do zarządzania zależnościami (lub inny system kompilacji).
-- **PostgreSQL** (lub inna wybrana baza danych).
+- **PostgreSQL**
 
 ### Kroki do kompilacji
 
